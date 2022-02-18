@@ -1,17 +1,7 @@
 /* normalización de elementos */
-html { scroll-behavior: smooth;}
-*{
-    
-    
-    margin: 0px; padding: 0px;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-
-
-}
+html { scroll-behavior: smooth; width: 100%;}
+*{margin: 0px; padding: 0px;}
 body{
-    width: 100vw;
   background-color: #2B2A33;
   font-family: 'Raleway', sans-serif;
 }
@@ -387,26 +377,22 @@ footer > div{
 
 @media (min-width: 700px){
 
-    
-
     .consulta{
-
         height: 7rem;
-
     }
 
     #sdiv{
         display: grid;
-        grid-template-columns: 13.66vw 13.66vw 13.66vw 13.66vw ;
-        grid-template-rows:13.66vw 13.66vw;
+        grid-template-columns: 11.66vw 11.66vw 11.66vw 11.66vw ;
+        grid-template-rows:11.66vw 11.66vw;
         row-gap: 2vw;
         column-gap: 2vw;
         margin: 64px 0 100px 0;
       
     }
     .svc{
-        width: 13.66vw; 
-        height: 13.66vw;
+        width: 11.66vw; 
+        height: 11.66vw;
 
     }
 
@@ -434,8 +420,8 @@ footer > div{
     }
 
     #enlaceArea{
-        
-        height: 100vh;
+        margin-top: 96px;
+        margin-bottom: 87px;
         
     }
 
@@ -592,18 +578,3 @@ footer > div{
       
 }
 
-@media (min-width: 1650px){
-
-    .section{
-
-        height: 100vh;
-
-    }
-
-    .consulta{
-
-        margin-top: 4vw;
-
-    }
-
-}
